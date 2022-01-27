@@ -1,0 +1,53 @@
+.list_user_container {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 14px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #006097;
+  color: white;
+}
+
+.edit_model_container {
+  width: 400px;
+  height: auto;
+  background-color: #ddd;
+}
+
+.formInput {
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid #000;
+  padding-left: 7px;
+}
+.update_button {
+  height: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
