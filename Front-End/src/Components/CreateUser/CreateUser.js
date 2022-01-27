@@ -65,13 +65,21 @@ const CreateUser = () => {
             name="password"
             onChange={inputChangeHandler}
           />
-          <label htmlFor="name">phone</label>
-          <input type="phone" name="phone" onChange={inputChangeHandler} />
+          <label htmlFor="number">phone</label>
+          <input
+            type="number"
+            name="phone"
+            numberonChange={inputChangeHandler}
+            maxLength="10"
+            minLength="10"
+          />
+          <label htmlFor="name">Image</label>
+          <input type="text" name="phone" onChange={inputChangeHandler} />
           <label htmlFor="name">code</label>
           <input
-            type="code"
+            type="number"
             name="code"
-            max="6"
+            maxLength="6"
             onChange={inputChangeHandler}
           />
           {/* <div className="user_image_container">
